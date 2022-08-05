@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  background-color: #f5eddc;
+}
+
+.drum-container {
+  background-color: #cfd2cf;
+  width: 50rem;
+  margin: 15% auto;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px #eb1d36;
+}
+
+#display {
+  width: 18rem;
+}
+
+.row {
+  overflow: wrap;
+}
+
+.drum-pad {
+  display: inline-flex;
+  width: 80px;
+  padding: 30px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #a2b5bb;
+}
+
+.left-panel {
+  text-align: center;
+}
+
+.kitTitle {
+  margin: 20px;
+  background-color: #f5eddc;
+  padding: 10px;
+  padding-bottom: 0.1px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 5px;
+}
